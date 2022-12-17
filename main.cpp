@@ -8,9 +8,9 @@
 
 #define WAIT_TIME_MS 500 
 // Declaro las variable de entradas (button_1  y butto_2), la  de salida  (led1) t los timer 
-DigitalOut led1(D2);
-DigitalIn button_1(D3);
-DigitalIn button_2(D4);
+DigitalOut led1(D4);
+DigitalIn button_1(D6);
+DigitalIn button_2(D7);
 
 Timer  timer_1; //timer button_1 ,duracion led  on 1 segundo
 Timer timer_2; //timer button_2 ,duracion led  on 2 segundos
